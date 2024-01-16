@@ -1,43 +1,4 @@
-html {
-    height: 100%;
-    width: 100%;
-    background-color: #f3f1f1;
+body{
+    background: url('.jpg');
+    background-size: cover;
 }
-p, ul, ol, li {
-    font-family: 'Rubik', sans-serif;
-}
-h4 {
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 17px;
-}
-h1 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 28px;
-}
-#footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 100vh;   /* Height of the footer */
-    background: #6cf;
-}
-/* unvisited link */
-a:link {
-    color: red;
-}
-
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
-

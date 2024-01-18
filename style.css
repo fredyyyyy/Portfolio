@@ -18,15 +18,11 @@
     --main-color: #00abf0;
 }
 
-html {
-    font-size:62.5%;
-    overflow-x: hidden;
-}
 
 body {
     background: var(--bg-color);
     color: var(--text-color);
-    padding: 3rem 0% 2rem;
+    padding: 8rem 0 2rem;
 }
 
 .header {
@@ -67,7 +63,7 @@ body {
 
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     z-index: 10;
